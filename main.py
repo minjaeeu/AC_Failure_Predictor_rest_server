@@ -1,4 +1,4 @@
-from server_config import host, port
+from configurations.server_config import host, port
 import subprocess
 
 # invoking uvicorn to run our server app at server_config.host and server_config.port
