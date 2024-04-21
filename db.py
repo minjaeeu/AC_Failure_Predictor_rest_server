@@ -1,5 +1,5 @@
 from sqlalchemy import Column, DateTime, DECIMAL
-from base import Base
+from configurations.base import Base
 from datetime import (
     datetime as DATETIME,
 )  # only for type hitting and also to not confund with "datetime" variable from AC_Info class.
