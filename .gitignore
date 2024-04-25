@@ -12,6 +12,10 @@ __pycache__/
 # VSCode
 .vscode
 
+# server config file
+server_config.py
+
+
 # Distribution / packaging
 .Python
 build/
