@@ -70,7 +70,7 @@ def post_new_entry(payload: AC_Info_Post) -> JSONResponse:
         datetime=payload.datetime,
         humidity=payload.humidity,
         temperature=payload.temperature,
-        wattage=payload.wattage,
+        current=payload.current,
     )
     try:
         session.add(new_entry)

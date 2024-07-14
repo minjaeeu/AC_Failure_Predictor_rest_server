@@ -7,4 +7,4 @@ class AC_Info_Post(BaseModel):
     datetime: datetime
     humidity: Decimal
     temperature: Decimal
-    wattage: Decimal
+    current: Decimal
